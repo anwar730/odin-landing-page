@@ -3,9 +3,10 @@
     padding: 0;
 }
 .content{
-    background-image: url('https://img.freepik.com/premium-photo/spacious-modern-minimalis-living-room-black-white-interior_33739-442.jpg?w=2000');
+    background-image: url('https://i.pinimg.com/736x/18/eb/ae/18ebae6412b3c72eb2facad8b223f9a4.jpg');
     background-repeat: no-repeat;
     height: 800px;
+    background-size: 2000px 800px;
 }
 .logo{
     font-size: x-large;
@@ -40,4 +41,25 @@
     border-radius: 5px;
     border: none;
     background-color: darkorange;
+}
+i{
+    color:#696969;
+    
+}
+#advantages{
+    text-align: center;
+    padding-top: 40px;
+    font-size:xx-large;
+
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 30px;
+    font-size:x-large;
+}
+h4{
+    padding-top: 10px;
 }
