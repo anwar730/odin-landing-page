@@ -63,3 +63,22 @@ i{
 h4{
     padding-top: 10px;
 }
+.about{
+    display: flex;
+    padding-top: 80px;
+    justify-content: space-around;
+    text-align: center;
+}
+.about-ft{
+    display: flex;
+    margin-top: 100px;
+    padding: 30px 200px;
+    gap:30px;
+    text-align: center;
+    justify-content: space-around;
+    background-color:darkorange;
+    align-items: center;
+}
+.about-content{
+    margin-top: 60px;
+}
