@@ -3,10 +3,10 @@
     padding: 0;
 }
 .content{
-    background-image: url('https://i.pinimg.com/736x/18/eb/ae/18ebae6412b3c72eb2facad8b223f9a4.jpg');
+    background-image: url('https://img.freepik.com/free-photo/gray-sofa-white-living-room-interior-with-copy-space-3d-rendering_43614-802.jpg?w=1380&t=st=1684477074~exp=1684477674~hmac=2e42a96ddf843504d6ffe9d13eb41e5df6e70316c9a1f86dbb5834f171ad6a41');
     background-repeat: no-repeat;
     height: 800px;
-    background-size: 2000px 800px;
+    background-size: 1800px 850px;
 }
 .logo{
     font-size: x-large;
@@ -72,8 +72,8 @@ h4{
 .about-ft{
     display: flex;
     margin-top: 100px;
-    padding: 30px 200px;
-    gap:30px;
+    padding: 20px 200px;
+    gap:40px;
     text-align: center;
     justify-content: space-around;
     background-color:darkorange;
@@ -81,4 +81,34 @@ h4{
 }
 .about-content{
     margin-top: 60px;
+    line-height: 33px;
+}
+#gallery-img{
+    width: 1000px;
+}
+.gallery{
+    display: flex;
+    margin-top:150px;
+    gap:30px;
+    line-height: 42px;
+    
+}
+.side img{
+    width: 700px;
+    height: 335px;
+}
+.gallery-content{
+    text-align: center;
+    font-size: larger;
+   
+}
+button{
+    padding:15px 25PX;
+    border-radius: 5px;
+    border-color:darkorange;
+    border-style: solid;
+    background-color: white;
+    margin: 30px;
+    
+    
 }
