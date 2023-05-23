@@ -3,10 +3,10 @@
     padding: 0;
 }
 .content{
-    background-image: url('https://img.freepik.com/free-photo/gray-sofa-white-living-room-interior-with-copy-space-3d-rendering_43614-802.jpg?w=1380&t=st=1684477074~exp=1684477674~hmac=2e42a96ddf843504d6ffe9d13eb41e5df6e70316c9a1f86dbb5834f171ad6a41');
+    background-image: url('https://www.bproperty.com/blog/wp-content/uploads/couch-447484_1920-1.jpg');
     background-repeat: no-repeat;
     height: 800px;
-    background-size: 1800px 850px;
+    background-size: 2000px 850px;
 }
 .logo{
     font-size: x-large;
@@ -111,4 +111,28 @@ button{
     margin: 30px;
     
     
+}
+.r-header{
+    text-align: center;
+    margin-top: 30px;
+    line-height: 42px;
+}
+.review-img{
+    width:65px
+}
+.username{
+    display: flex;
+    gap:10px
+}
+.user{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+.fa-instagram {  
+    padding-top: 4px;
+}
+.r1{
+    border: solid gold;
+    padding: 20px ;
 }
