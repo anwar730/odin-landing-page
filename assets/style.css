@@ -17,15 +17,20 @@
     display: flex;
     gap: 600px;
     align-items: center;
-    background-color:white;
+    background-color:#eaeaea;
     height: 100px;
     
 }
-.navlinks{
+.navlinks {
     display: flex;
     list-style: none;
     gap:100px;
     font-size: x-large;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 .header{
     margin-left: 100px;
@@ -45,6 +50,10 @@
 i{
     color:#696969;
     
+}
+.advantages{
+    background-color:#eaeaea;
+    height: 300px;
 }
 #advantages{
     text-align: center;
@@ -102,7 +111,7 @@ h4{
     font-size: larger;
    
 }
-button{
+.button{
     padding:15px 25PX;
     border-radius: 5px;
     border-color:#ffd700;
@@ -167,7 +176,23 @@ button{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 5px;
  }
-
+ #call{
+    padding:10px 20PX;
+    border-radius: 5px;
+    border-color:#ffd700;
+    border-style: solid;
+    background-color: white;
+ }
+ .footer{
+    display: flex;
+    justify-content: space-around;
+    background-color:#eaeaea;
+    align-items: center;
+    list-style: none;
+    height: 200px;
+    line-height: 30px;
+    font-size: large;
+ }
 
 
  
