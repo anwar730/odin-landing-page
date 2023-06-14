@@ -1,202 +1,349 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-@media(max-width:2500px){
 
+.content {
+  background-image: url("https://www.bproperty.com/blog/wp-content/uploads/couch-447484_1920-1.jpg");
+  background-repeat: no-repeat;
+  height: 800px;
+  background-size: 2000px 850px;
+  margin: 0;
+}
+.logo {
+  font-size: x-large;
+  margin-left: 50px;
+  color: gold;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eaeaea;
+  height: 100px;
+}
+.navlinks ul {
+  display: flex;
+  font-size: x-large;
+}
+.navlinks li {
+  list-style: none;
+}
+.navlinks li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 30px;
+}
+.navlinks li:hover {
+  background-color: #ffd700;
+}
+.fa-bars {
+  display: none;
+  position: absolute;
+  right: 2rem;
+  font-size: xx-large;
+}
 
-.content{
-    background-image: url('https://www.bproperty.com/blog/wp-content/uploads/couch-447484_1920-1.jpg');
-    background-repeat: no-repeat;
-    height: 800px;
-    background-size: 2000px 850px;
+.header {
+  padding-left: 100px;
+  padding-top: 170px;
 }
-.logo{
-    font-size: x-large;
-    margin-left:50px;
-    color: gold
+.header h1{
+    font-size: 30px;
 }
-.navbar{
+.header p {
+  padding-top: 30px;
+}
+.header button {
+  margin-top: 30px;
+  padding: 15px 35px;
+  border-radius: 5px;
+  border: none;
+  background-color: gold;
+}
+i {
+  color: #696969;
+}
+.advantages {
+  background-color: #eaeaea;
+  height: 300px;
+}
+#advantages {
+  text-align: center;
+  padding-top: 40px;
+  font-size: xx-large;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 30px;
+  font-size: x-large;
+}
+h4 {
+  padding-top: 10px;
+}
+.about {
+  display: flex;
+  padding-top: 80px;
+  justify-content: space-around;
+  text-align: center;
+}
+.about-ft {
+  display: flex;
+  margin-top: 100px;
+  padding: 20px 200px;
+  gap: 40px;
+  text-align: center;
+  justify-content: space-around;
+  background-color: #ffd700;
+  align-items: center;
+}
+.about-content {
+  margin-top: 60px;
+  line-height: 33px;
+}
+#gallery-img {
+  width: 1000px;
+}
+.gallery {
+  display: flex;
+  margin-top: 150px;
+  gap: 30px;
+  line-height: 42px;
+}
+.side img {
+  width: 700px;
+  height: 335px;
+}
+.gallery-content {
+  text-align: center;
+  font-size: larger;
+}
+.button {
+  padding: 15px 25px;
+  border-radius: 5px;
+  border-color: #ffd700;
+  border-style: solid;
+  background-color: white;
+  margin: 30px;
+}
+.r-header {
+  text-align: center;
+  margin-top: 30px;
+  line-height: 42px;
+  font-size: larger;
+}
+.review-img {
+  width: 65px;
+}
+.username {
+  display: flex;
+  gap: 10px;
+}
+.user {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.fa-instagram {
+  padding-top: 4px;
+}
+.reviews {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.r1 {
+  border: solid gold;
+  padding: 20px 50px;
+}
+.fa-star {
+  padding-top: 4px;
+}
+.reviews p {
+  padding-top: 10px;
+}
+.faq {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 40px 500px;
+  background-color: #ffd700;
+  padding: 15px;
+  border-radius: 7px;
+}
+.f2 {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  margin: 40px 500px;
+  padding: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+#call {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-color: #ffd700;
+  border-style: solid;
+  background-color: white;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #eaeaea;
+  align-items: center;
+  list-style: none;
+  height: 200px;
+  line-height: 30px;
+  font-size: large;
+}
+.fa-heart {
+  color: red;
+}
+.copy-right {
+  text-align: center;
+  background-color: #eaeaea;
+}
+
+@media only screen and (max-device-width: 480px) {
+  /* Your CSS rules for iPhone 6/7/8 */
+  .reviews {
+    display: block;
+    margin-top: 30px;
+  }
+  .r1 {
+    margin: 20px 10px;
+    padding: 20px;
+  }
+  .faq {
     display: flex;
-    gap: 600px;
     align-items: center;
-    background-color:#eaeaea;
-    height: 100px;
-    
-}
-.navlinks {
+    justify-content: space-around;
+    margin: 40px 15px;
+    background-color: #ffd700;
+    border-radius: 7px;
+  }
+  .f2 {
     display: flex;
-    list-style: none;
-    gap:100px;
-    font-size: x-large;
-    
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-.header{
-    margin-left: 100px;
-    margin-top: 100px;
-   font-size: larger;
-}
-.header p{
-    margin-top: 30px;
-}
-.header button{
-    margin-top: 30px;
-    padding:15px 35PX;
+    /* align-items: center; */
+    justify-content: space-around;
+    margin: 40px 10px;
+    padding: 25px 38px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    border: none;
-    background-color: gold;
-}
-i{
-    color:#696969;
-    
-}
-.advantages{
-    background-color:#eaeaea;
-    height: 300px;
-}
-#advantages{
+  }
+  .footer .logo {
+    font-size: medium;
+    margin-left: 0px;
+    color: gold;
     text-align: center;
-    padding-top: 40px;
-    font-size:xx-large;
-
-}
-.icons{
+    padding: 20px;
+    font-size: 25px;
+  }
+  .footer {
+    display: block;
+    justify-content: space-around;
+    background-color: #eaeaea;
+    align-items: center;
+    list-style: none;
+    height: 300px;
+    line-height: 30px;
+    font-size: large;
+  }
+  .f-links {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .f-icons {
+    text-align: center;
+    padding: 20px;
+  }
+  .f-icons i {
+    margin-right: 20px;
+  }
+  .call {
+    text-align: center;
+    padding: 20px;
+  }
+  #gallery-img {
+    width: 100%;
+  }
+  .gallery {
+    display: block;
+    margin-top: 150px;
+    gap: 30px;
+    line-height: 42px;
+  }
+  .side img {
+    width: 100%;
+    height: 255px;
+  }
+  .about {
+    display: block;
+    padding-top: 80px;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .about-ft {
+    display: flex;
+    margin: 20px 10px;
+    padding: 20px 10px;
+    gap: 35px;
+    border-radius: 7px;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #ffd700;
+    align-items: center;
+  }
+  .abt-img {
+    width: 100%;
+    height: 255px;
+  }
+  .icons {
+    display: block;
     align-items: center;
     justify-content: space-around;
     text-align: center;
     padding-top: 30px;
-    font-size:x-large;
-}
-h4{
-    padding-top: 10px;
-}
-.about{
-    display: flex;
-    padding-top: 80px;
-    justify-content: space-around;
-    text-align: center;
-}
-.about-ft{
-    display: flex;
-    margin-top: 100px;
-    padding: 20px 200px;
-    gap:40px;
-    text-align: center;
-    justify-content: space-around;
-    background-color:#ffd700;
-    align-items: center;
-}
-.about-content{
-    margin-top: 60px;
-    line-height: 33px;
-}
-#gallery-img{
-    width: 1000px;
-}
-.gallery{
-    display: flex;
-    margin-top:150px;
-    gap:30px;
-    line-height: 42px;
-    
-}
-.side img{
-    width: 700px;
-    height: 335px;
-}
-.gallery-content{
-    text-align: center;
-    font-size: larger;
-   
-}
-.button{
-    padding:15px 25PX;
+    font-size: x-large;
+  }
+  .icons div {
+    margin-top: 10px;
+  }
+  .advantages {
+    background-color: #eaeaea;
+    height: 450px;
+  }
+  .header{
+    padding-left: 30px;
+    padding-top: 100px;
+  }
+  .header h1 {
+    font-size: medium;
+  }
+  .header button {
+    padding: 15px 25px;
     border-radius: 5px;
-    border-color:#ffd700;
-    border-style: solid;
-    background-color: white;
-    margin: 30px;
+    border: none;
+    background-color: gold;
+  }
+  .content {
+    background-image: url("https://cotswoldco-cdn.azureedge.net/products/4002.048-front.6.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px 450px;
+    height: 500px;
     
-    
-}
-.r-header{
-    text-align: center;
-    margin-top: 30px;
-    line-height: 42px;
-    font-size: larger;
-}
-.review-img{
-    width:65px
-}
-.username{
-    display: flex;
-    gap:10px
-}
-.user{
-    display: flex;
-    gap:20px;
-    align-items: center;
-}
-.fa-instagram {  
-    padding-top: 4px;
-}
-.reviews{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
-}
-.r1{
-    border: solid gold;
-    padding: 20px 50px;
-}
-.fa-star{
-    padding-top: 4px;
-}
-.reviews p{
-    padding-top: 10px;
-}
-.faq{
-    display:flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 40px 500px;
-    background-color: #ffd700;
-    padding: 15px;
-    border-radius: 7px;
-    
- }
- .f2{
-    display:flex;
-    /* align-items: center; */
-    justify-content: space-around;
-    margin: 40px 500px;
-    padding: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 5px;
- }
- #call{
-    padding:10px 20PX;
-    border-radius: 5px;
-    border-color:#ffd700;
-    border-style: solid;
-    background-color: white;
- }
- .footer{
-    display: flex;
-    justify-content: space-around;
-    background-color:#eaeaea;
-    align-items: center;
-    list-style: none;
-    height: 200px;
-    line-height: 30px;
-    font-size: large;
- }
-}
+  }
 
- 
+  .header p{
+    font-size: 18px;
+  }
+  
+}
 
