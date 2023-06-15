@@ -1,0 +1,16 @@
+{
+  "name": "odin-lp",
+  "version": "1.0.0",
+  "description": "![Screenshot from 2023-06-11 18-18-15](https://github.com/anwar730/odin-landing-page/assets/107399297/087f4452-b6db-4576-9d53-beec97478385)",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./assets/style.css -o ./css/main.css",
+    "watch":"tailwindcss -i ./assets/style.css -o ./css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
