@@ -1,15 +1,8 @@
-const menuBtn=document.getElementsByClassName("fa-bars")[0]
-const navLinks=document.getElementsByClassName("navlinks")[0]
-// console.log(menuBtn)
-menuBtn.addEventListener("click",()=>{
-    navLinks.classList.toggle("active")
-})
+const btn=document.getElementById("menu-btn")
+const nav=document.getElementById("menu")
 
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
+btn.addEventListener("click",()=>{
+  btn.classList.toggle("open")
+  nav.classList.toggle("flex")
+  nav.classList.toggle("hidden")
+})

@@ -3,7 +3,7 @@
 
 <head>
   <title>Furnicare</title>
-  <link rel="stylesheet" href="./assets/style.css" />
+  <link rel="stylesheet" href="./css/main.css" />
   <script src="https://kit.fontawesome.com/12991e9c0a.js" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="./assets/index.js" defer></script>
@@ -11,22 +11,58 @@
 
 <body>
 
-  <nav class="navbar">
+
+  <nav class="relative container mx-auto p-6" >
+    <div class="flex items-center justify-between">
+
+      <div class="pt-2 md:text-5xl tracking-wider text-gold">
+        <h1>Furnicare</h1>
+      </div>
+
+      <div class="hidden md:flex space-x-6">
+        <a href="#" class="hover:bg-gold rounded-full px-3">Home</a>
+        <a href="#adv" class="hover:bg-gold  rounded-full px-3">Advantages</a>
+        <a href="#gall" class="hover:bg-gold rounded-full px-3 ">Gallery</a>
+        <a href="#f" class="hover:bg-gold  rounded-full px-3">FAQ</a>
+        <a href="#r" class="hover:bg-gold rounded-full px-3 ">Reviews</a>
+      </div>
+
+      <button id="menu-btn" class="block hamburger md:hidden focus:outline-none  ">
+        <span class="hamburger-top"></span>
+        <span class="hamburger-middle"></span>
+        <span class="hamburger-bottom"></span>
+      </button>
+    </div>
+    <div class="md:hidden">
+      <div id="menu" class="absolute  flex-col items-center hidden self-end  py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+        <a href="#" class="hover:bg-gold rounded-full px-3">Home</a>
+        <a href="#adv" class="hover:bg-gold  rounded-full px-3">Advantages</a>
+        <a href="#gall" class="hover:bg-gold rounded-full px-3 ">Gallery</a>
+        <a href="#f" class="hover:bg-gold  rounded-full px-3">FAQ</a>
+        <a href="#r" class="hover:bg-gold rounded-full px-3 ">Reviews</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- <nav class="navbar">
     <div class="logo">
       <h1>Furnicare</h1>
     </div>
-    <i class="fa-solid fa-bars"></i>
-    <div class="navlinks">
-      <ul>
+      <ul class="navlinks">
         <li><a href="#">Home</a></li>
-        <li><a href="#adv">Our advantages</a></li>
+        <li><a href="#adv">Advantages</a></li>
         <li><a href="#gall">Gallery</a></li>
         <li><a href="#f">FAQ</a></li>
         <li><a href="#r">Reviews</a></li>
       </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      
 
-    </div>
-  </nav>
+  </nav> -->
 
   <div class="content">
     <div class="header">
